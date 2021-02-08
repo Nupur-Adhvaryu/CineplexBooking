@@ -1,0 +1,99 @@
+body {
+	background-color : #F1F1EF;
+	color:#C19434;
+	font-family:"Courier New";
+	font-size:20px;
+}
+p{
+	padding-bottom :5px;
+	font-size:20px;
+	color:#34421E;
+}
+/* #user{
+float:left;
+}
+#admin{
+	margin-top:0px;
+	margin-left:500px;
+	padding-top:0px;
+	
+} */
+h1{
+font-size:60px;
+text-align:center;
+color:#431C5D;
+}	
+.input{
+	margin-left:10px;
+}
+.button{
+	background-color:#C19434;
+	color:#34421E;
+	font-family:"Courier New";
+	width:90px;
+	height:20px;
+	font-size:12px;
+}
+#error{
+	text-align:center;
+	margin-top:100px;
+	color:#FA292A;
+	font-size:40px;
+}
+
+table th{
+	color:#C19434;
+	font-size:40px;
+	padding:30px;
+	
+}
+
+table td{
+	color:#34421E;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+}
+table td a{
+	color:#5A7670;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
+}
+#category{
+	margin-left:50px;
+}
+section{
+	font-size:30px;
+	color:#431C5D;
+	text-align:center;
+}
+#thanks{
+	text-align:center;
+	margin-top:100px;
+	font-size:40px;
+}
+
+span{
+	font-weight:bold;
+	font-size:50px;
+}
+
+#container{
+	display:flex;
+	margin-left : 90px;	
+}
+
+#user{
+	flex-grow:2;
+	margin-left : 90px;
+}
+
+#admin {
+	flex-grow : 2;
+}
+
+#guest {
+	margin-left : 390px;
+}
